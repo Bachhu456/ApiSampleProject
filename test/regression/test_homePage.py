@@ -5,7 +5,6 @@ from selenium.common.exceptions import NoSuchElementException
 import unittest
 
 import pytest
-import time
 class Test_homePage01(unittest.TestCase):
     def setUp(self):
         self.browser=Chrome("C://Users/Debasis/PycharmProjects/ApiSampleProject/browser_server/chromedriver.exe")
